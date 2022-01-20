@@ -4,6 +4,12 @@
 from flask import Flask
 from flask_restx import Api
 
+
+from .db import tweet_repository
+from .models import Tweet
+
+tweet_repository.add(Tweet("Tweet 1"))
+
 def create_app():
     app = Flask(__name__)
 
