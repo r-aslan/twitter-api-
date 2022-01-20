@@ -7,6 +7,7 @@ name = "pypi"
 flask = "*"
 flask-restx = "*"
 gunicorn = "*"
+datetime = "*"
 
 [dev-packages]
 flask-testing = "*"
